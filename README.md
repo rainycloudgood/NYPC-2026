@@ -1,17 +1,17 @@
 # NYPC 2026
 
-Nexon Young Programmers Cup 2026 참가 기록 — Qualification Round 부터 Final Round 까지의
-제출 코드, 실험 코드, 본선 준비 도구를 한곳에 모았습니다.
+Nexon Young Programmers Cup 2026 참가 기록 — Qualification Round 부터 Final Round 까지의 제 여정을 기록했습니다.
+NYPC 2026 BRONZE RANKER의 코드와 풀이를 살펴보세요!
 
 ## 구성
 
 ```
 NYPC-2026/
-├── qualification/                    예선 공식 제출물
+├── qualification/                    QUALIFICATION ROUND 제출물
 │   ├── seed-transport-challenge/     씨앗 운반 – 챌린지 (제출 57건, .py / .cpp)
 │   ├── seed-transport-stepup/        씨앗 운반 – 스텝 업 (미션별 답안, subtask-N/)
 │   └── bazzi-dao-cleanup-challenge/  배찌와 다오의 대청소 – 챌린지 (제출 3건)
-├── final/                            본선 공식 제출물
+├── final/                            FINAl ROUND 제출물
 │   └── superrookie/                  슈퍼루키 (제출 19건, .cpp)
 └── workspace/                        작업 공간 (내부 상대경로 그대로 보존)
     ├── *.py, *.cpp                   예선 씨앗 운반 실험·탐색·검증 스크립트
@@ -33,10 +33,12 @@ NYPC-2026/
 
 도구 연동 규약: 솔버는 stdin → stdout, 지표는 stderr 에 `key=value`.
 
+!!코드 재사용은 금지합니다. 쓰고싶게 해드리고싶지만, 제 개인정보(AWS)가 들어있을 수 있기에 그냥 코드를 이런식으로 작성했고 풀이했구나! 정도로만 봐주시면 감사하겠습니다.!!
+
 ## 포함하지 않은 것
 
-- **문제 원문, 채점 입력, 대회 제공 데이터** — 넥슨(NYPC) 자료이므로 재배포하지 않습니다.
-- **본선 LLM 로그** — 문제 원문과 제공 데이터가 그대로 들어 있어 제외했습니다.
+- **문제 원문, 채점 입력, 대회 제공 데이터** — 넥슨(NYPC) 자료이므로 재배포하지 않습니다. 보고싶으신 분들은 NYPC ARCHIVE로 가시면 됩니다!
+- **본선 LLM 로그** — 문제 원문과 제공 데이터, 개인정보가 그대로 들어 있어 제외했습니다.
 
 `workspace/` 의 스크립트 일부는 당시 로컬 경로(`C:\Users\<user>\Downloads` 등)나
 공개 예제 입력을 전제로 작성되어 그대로는 실행되지 않을 수 있습니다.
