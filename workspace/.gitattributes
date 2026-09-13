@@ -1,0 +1,10 @@
+# ── 줄바꿈 고정 (플랫폼 자동변환 금지) ──
+# 이유: .sh 가 CRLF로 체크아웃되면 리눅스에서 깨진다.
+#       특히 aws/user-data.sh 는 EC2 부팅 시 cloud-init 이 실행하므로 치명적.
+#       반대로 .bat 는 CRLF가 아니면 윈도우에서 괴상한 에러를 낸다.
+*.sh   text eol=lf
+*.bat  text eol=crlf
+
+# 입력/격자 데이터는 건드리지 않는다
+*.txt  -text
+*.inc  -text

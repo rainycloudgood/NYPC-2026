@@ -1,0 +1,43 @@
+# ── 화이트리스트 방식: 기본 전부 무시, 필요한 것만 포함 ──
+/*
+!.gitignore
+!.gitattributes
+!*.md
+!*.py
+!*.cpp
+!*.inc
+!*.bat
+!sample_input.txt
+!public_1_input.txt
+!public_3_input.txt
+!public_4_input.txt
+!oracle_hybrid/
+!aws/
+
+# 포함된 디렉터리 안에서도 빌드·데이터 산출물은 제외
+*.exe
+*.obj
+*.o
+*.pyc
+__pycache__/
+*.grid
+*.stderr
+*.stderr.txt
+*.checked
+*.out
+*.time
+*.csv
+_cmp*
+_smk*
+submission_test.*
+!*.sh
+!*.bat
+!START_HERE.txt
+
+# ── 자격증명은 무슨 일이 있어도 커밋 금지 ──
+*.pem
+*.ppk
+credentials
+.aws/
+aws/results/
+aws/local.env
